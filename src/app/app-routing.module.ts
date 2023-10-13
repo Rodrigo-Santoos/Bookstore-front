@@ -3,11 +3,16 @@ import { RouterModule, Routes } from '@angular/router';
 
 //imports dos components
 import { HomeComponent } from './components/views/home/home.component';
+import { CategoriaReadComponent } from './components/views/categoria/categoria-read/categoria-read.component';
 
 const routes: Routes = [
   {
     path: '',
     component: HomeComponent
+  },
+  {
+    path: 'categorias',
+    component: CategoriaReadComponent
   }
 ];
 
