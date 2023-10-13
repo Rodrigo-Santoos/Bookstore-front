@@ -14,7 +14,29 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+button{
+    margin-bottom: .8rem;
+}
+
 /*Tabela*/
 .tabela { 
     width: 100%;
 }
+
+.livros{
+    color: rgba(22, 105, 231, 0.822);
+    margin-left: .6rem;
+}
+
+.editar{
+    color: rgb(233, 196, 75)
+}
+
+.deletar{
+    color: red;
+}
+
+.mat-header{
+    width: 5rem;
+}
+
