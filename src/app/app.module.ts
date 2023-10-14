@@ -24,6 +24,7 @@ import {MatCardModule} from '@angular/material/card';
 import {CategoriaReadComponent } from './components/views/categoria/categoria-read/categoria-read.component';
 import {MatTableModule} from '@angular/material/table';
 import {MatButtonModule} from '@angular/material/button';
+import { CategoriaCreateComponent } from './components/views/categoria/categoria-create/categoria-create.component';
 
 
 
@@ -34,7 +35,8 @@ import {MatButtonModule} from '@angular/material/button';
     FooterComponent,
     NavegacaoComponent,
     HomeComponent,
-    CategoriaReadComponent
+    CategoriaReadComponent,
+    CategoriaCreateComponent
   ],
   imports: [
     BrowserModule,
